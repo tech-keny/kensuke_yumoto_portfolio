@@ -10,5 +10,22 @@
     </div>
 </div>
 
-{% endblock %}
+<div class="row mb-5">
+    {% for work in work_data %}
+        <div class="col-6 col-md-3 mb-3">
+            <div class="card work-thumbnail">
+                {% if work.thumbnail %}
+                    <img class="work-img" src="{{ work.thumbnail.url }}" alt="">
+                {% else %}
+                    <img class="work-img" src="{{ work.image.url }}" alt="">
+                {% endif %}
+                <div class="work-title text-center">
+                    <p class="mb-0">{{ work.title }}</p>
+                </div>
+                <a class="stretched-link work" href=""></a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
 
+{% endblock %}

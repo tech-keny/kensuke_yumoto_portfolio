@@ -22,7 +22,7 @@
                 <div class="work-title text-center">
                     <p class="mb-0">{{ work.title }}</p>
                 </div>
-                <a class="stretched-link work" href=""></a>
+                <a class="stretched-link work" href="{% url 'detail' work.id %}"></a>
             </div>
         </div>
     {% endfor %}

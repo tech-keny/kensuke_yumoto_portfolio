@@ -90,3 +90,42 @@ main {
 	transform: translateY(0px);
 	opacity: 1;
 }
+
+/* detail */
+.link-color {
+	color: #EE6C4D;
+}
+
+.link-color:hover {
+	color: #c56c55;
+	text-decoration: none;
+}
+
+/* about */
+
+.avatar img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.icon {
+	padding: 10px 8px;
+}
+
+.star-rating {
+	position: relative;
+	font-size: 30px;
+	word-wrap: normal !important;
+}
+
+.star-rating-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+    overflow: hidden;
+    color: #EE6C4D;
+}
+
+.star-rating-back {
+	color: #ccc;
+}

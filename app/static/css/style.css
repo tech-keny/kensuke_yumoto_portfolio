@@ -129,3 +129,20 @@ main {
 .star-rating-back {
 	color: #ccc;
 }
+
+
+
+/* contact */
+
+.contact {
+	max-width: 500px;
+}
+
+.form-control:focus {
+	border-color: #EE6C4D;
+	box-shadow: none;
+}
+
+.card {
+	border: none;
+}
